@@ -10,8 +10,6 @@
     "lint": "concurrently npm:typecheck npm:lint:eslint",
     "lint:eslint": "eslint src",
     "precommit": "npm run lint",
-    "prepare": "node scripts/setup-git-hooks.mjs"
-  },
   "dependencies": {
     "@formkit/auto-animate": "^0.9.0",
     "@gsap/react": "^2.1.2",
