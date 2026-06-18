@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/timeline", "destination": "/api/timeline" },
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}
